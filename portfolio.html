@@ -4,21 +4,20 @@
     <title>Portfolio</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-container">
-        <img id="perfil" src="img/img de perfil.jpg" height="10%" width="10%">
-    <h2>Vitor Ariza de Oliveira</h2>
-    <h3>Front-End Developer</h3>
-    <ul>
-        <li><a href="https://github.com/" target="_blank">github</a></li>
-        <li><a href="https://www.linkedin.com/in/vitor-ariza-de-oliveira-861a86247/" target="_blank">linkedin</a></li>
-        <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
-    </ul>
+        <div class="perfil"><img id="fotoPerfil" src="img/img de perfil.jpg" height="10%" width="10%">
+    <h2 id="nome">Vitor Ariza de Oliveira</h2>
+    <p id="carreira">Front-End Developer</p> 
+        </div>
     </header>
     <main class="main-cointeiner">
-        <section id="Sobre">
-        <h2>Sobre</h2>
+        <section class="Sobre">
+        <h2 id="sobre">Sobre</h2>
         <p>Meu nome e Vitor Ariza de Oliveira tenho 24 anos residente de São José dos Campos, SP.
            Estou prestes a deixar a vida militar, sou formado em Analise de Desenvolvimento de Sistemas pela UNIP, tenho conhecimento
            em JavaScript, HTML, ISS e banco de dados e me sinto pronto para embarcar na área de desenvolvimento.
@@ -29,22 +28,51 @@
          <p>
             Durante meu tempo de serviço nas Forças Armadas tive a oportunidade de realizar diversos cursos os principais sendo 
          </p>
-         <ul>
-            <li id="Rebocador"><h3>Rebocador e balizador de Aeronaves e operador de equipamentos em solo</h3></li>
-            <img src="img\img recebimento aeronautico.jpg" height="20%" width="20%">
-            <li id="Empilhadeira"><h3>Empilhadeirista</h3></li>
-            <img src="img\img empilhadeira.jpg" height="25%" width="25%">
-            <li id="NR"><h3>NR-35</h3></li>
-            <p>Habilitação em trabalhos em altura.</p>
-         </ul>   
-        </section>    
+        </section>
+
+    <section class="rebocador">    
+        <h3>Rebocador e balizador de Aeronaves e operador de equipamentos em solo</h3>
+        <div class="conteudo">
+        <div class="texto">
+        <p>Minha principal escala, nesse curso fui ensinado a balizar tanto aviões quanto helicopteros, manusear trator e URA (para rebocar aeronaves) 
+        e manusear fonte e diversos EAs (equipamento de apoio ao solo). </p>
+        </div>
+        <div class="imagem">
+        <img src="img\img recebimento aeronautico.jpg" height="40%" width="50%">
+        </div>
+        </div>
+    </section>
+
+    <section class="empilhadeirista">
+        <h3>Empilhadeirista</h3>
+        <div class="conteudo2">
+        <div class="texto2">    
+        <p>Manuseio da empilhadeira e tratamento com cargas sao os principais pontos desse curso.</p>
+        </div>
+        <div class="imagem2">
+        <img src="img\img empilhadeira.jpg" height="70%" width="70%">
+        </div>
+        </div>    
+    </section>
     </main>
-    <footer class="footer-cointeiner">
-        <div id="email">
+
+    <footer class="footer">
+    <div class="footer-conteiner">
+        <div class="email">
          <h3>Contato</h3>
          <p><em>Email: vitorariza@outlook.com</em></p>
         </div>
+        <div class="cidade">
         <h2><strong>São José dos Campos,SP</strong></h2>
+        <p>"SIC PARVIS MAGNA"</p>
+        </div>
+        <div class="rede-sociais">
+        <h2>Redes Sociais</h2>     
+        <a href="https://github.com/" target="_blank">github</a></li>
+        <a href="https://www.linkedin.com/in/vitor-ariza-de-oliveira-861a86247/" target="_blank">linkedin</a></li>
+        <a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+        </div>
+    </div>    
     </footer>
 
 </body>

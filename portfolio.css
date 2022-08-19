@@ -1,3 +1,86 @@
-.header-container {
-    text-align: left;
+body {
+    background: rgb(3, 2, 54);
+    color: white;
 }
+
+.header-container  {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color: rgb(3, 2, 54);    
+}
+#fotoPerfil {
+    border-radius: 60%;
+}
+#nome {
+    color: white
+}
+#carreira {
+    font-size: 20px;
+    color: white
+}
+/*acima e o header */
+
+.main-cointeiner {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    position: relative;
+    float: left;
+    left: 190px;
+    height: 45%;
+    width: 45%;
+    
+    
+}
+
+.texto {
+    display: table-cell;
+    position: relative;
+    float: right;
+    right: 190px;
+    width: 200px;
+    margin-left: -50px;
+    font-size: 25px;
+
+}
+
+
+.conteudo2 {
+    display: table;
+}
+
+.imagem2 {
+    display: table-cell;
+    position: relative;
+    float: left;
+    left: 190px;
+    width: 45%;
+    height: 45%;
+}
+
+.texto2 {
+    display: table-cell;
+    position: relative;
+    float: right;
+    right: 190px;
+    width: 200px;
+    margin-left: -50px;
+    font-size: 25px;
+
+}
+
+.footer-conteiner {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
