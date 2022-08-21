@@ -83,4 +83,14 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.dcta {
+    position: relative;
+    float: left;
+}
+
+.ipev {
+    position: relative;
+    float: right;
+}
+
 
